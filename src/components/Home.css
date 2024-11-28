@@ -1,0 +1,45 @@
+.hero-section {
+    min-height: 100vh; 
+    height: 80px;
+   
+  }
+  
+  
+  .container {
+    display: grid;
+  
+  }
+  
+ 
+  .spacer {
+    display: none;
+    padding-top: 4rem;
+  }
+  
+  
+  @media (min-width: 1024px) {
+    .spacer {
+      display: block;
+    }
+  }
+  
+  
+  .main-text {
+    font-size: 60px; 
+    font-weight: bold;
+    line-height: 1.2;
+    display: flex;
+    align-items: baseline;
+    padding-left: 2.25rem; 
+    padding-right: 2.25rem;
+    justify-self: stretch;
+    padding: 40px;
+  }
+  
+
+  @media (min-width: 640px) {
+    .main-text {
+      font-size: 80px;
+    }
+  }
+  

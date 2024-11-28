@@ -1,0 +1,26 @@
+.about-section {
+    padding-top: 8rem; 
+    padding-left: 2.25rem; 
+    padding-right: 2.25rem;
+    padding-bottom: 2.5rem;
+  }
+  
+  
+  .about-title {
+    font-size: 2.25rem; 
+  }
+  
+ 
+  @media (min-width: 768px) {
+    .about-title {
+      font-size: 3rem; 
+    }
+  }
+  
+  
+  .about-description {
+    color: #292a2c; 
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  

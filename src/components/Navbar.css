@@ -1,0 +1,26 @@
+.menu {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 80px;
+    gap: 4rem;
+  }
+  
+  .menuLinks {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+  }
+  
+  .menuLinks li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .menuLinks li a:hover {
+    color: #ddd;
+  }
